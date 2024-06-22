@@ -1,0 +1,44 @@
+body{
+    margin: 0px;  /*Sirve para poner todo el body pegado al borde de la pagina*/
+}
+
+caption, thead{
+    color:brown;
+    border:2px solid black;
+}
+
+.ulnav{
+    display: flex;
+    list-style-type: none;
+}
+
+.linav{
+    padding: right 30px;
+}
+
+.anav{
+    color :white;  /*inherit en vez de white para heredar los colores de la etiquieta padre*/
+    padding-right: 20px;
+    text-decoration: none;
+
+}
+
+nav{
+    background-color: black;
+    padding: 20px;
+}
+
+.tablecontainer{
+    display: flex;
+    justify-content: center;
+}
+
+table{
+    margin: 40px;
+    border: 2px solid black;
+}
+
+footer{
+    text-align: center;
+    position: relative;
+}

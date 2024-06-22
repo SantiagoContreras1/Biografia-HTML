@@ -1,0 +1,40 @@
+body{
+    margin: 0px; /*Sirve para poner todo el body pegado al borde de la pagina*/
+    color: rgb(0, 60, 255) !important;
+}
+
+h1, h2{
+    color: blue;
+}
+
+h3{
+    color: black;
+}
+li{
+    color:black;
+}
+
+.ulnav{
+    display: flex;
+    list-style-type: none;
+}
+
+.linav{
+    padding-right: 30px;
+}
+
+.anav{
+    color: white; /*inherit en vez de white para heredar los colores de la etiquieta padre*/
+    padding-right: 20px;
+    text-decoration: none;
+}
+
+nav{
+    background-color: black;
+    padding: 20px;
+}
+
+/*ol{
+    color: rgb(255, 0, 0) !important;
+}*/   
+
